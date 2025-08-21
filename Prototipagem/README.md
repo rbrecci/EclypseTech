@@ -49,7 +49,7 @@ A Eclypse Tech se posiciona como **parceira estratégica** das empresas:
 - Dourado: `#D69909`  
 - Dourado Claro: `#F6B51E`  
 
-### Tons Neutros (Light)
+### Tons Claros (Light)
 - Cinza Claro 1: `#CECEC5`  
 - Cinza Claro 2: `#E6E6E1`  
 - Branco: `#FDFDFC`  
@@ -93,5 +93,6 @@ Nesta primeira etapa, estruturamos:
 - O uso de ferramentas colaborativas para fortalecer o trabalho em equipe.  
 
 Com isso, nos posicionamos como uma **referência em transformação digital** e estabelecemos bases sólidas para os próximos estágios de crescimento.  
+
 
 ---
