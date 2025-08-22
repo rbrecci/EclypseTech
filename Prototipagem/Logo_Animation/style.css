@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Trajanus;
+    src: url(trajanusbricks/TrajanusBricks.ttf);
+};
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primarydark);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: var(--secondary);
+    font-family: 'Trajanus';
+    font-size: 5rem;
+    top: 40vh;
+    left: 32vw;
+    position: absolute;
+}
+
+:root{
+    --primary: #134E71;
+    --primarydark: #0C3147;
+    --secondary: #d69909;
+    --secondarylight: #ebb95c;
+    --test: #b3a464;
+}
+
+.darkyellowcircle{
+    background-color: var(--secondary);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.lightyellowcircle{
+    background-color: var(--secondarylight);
+    height: 96%;
+    width: 96%;
+    border-radius: 50%;
+    animation: lighttodark ease-in forwards 1s;
+    animation-delay: 2s;
+}
+
+.bluecircle{
+    background-color: var(--primarydark);
+    height: 98%;
+    width: 98%;
+    border-radius: 50%;
+    left: 0%;
+    bottom: -2%;
+    position: absolute;
+    animation: shrink ease-in-out forwards 1s;
+    animation-delay: 2s;
+}
+
+.eclypse{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    top: -25vh;
+    left: 1.5vw;
+    animation: rodar ease-in-out forwards 1s;
+    animation-delay: 2s;
+}
+
+@keyframes rodar{
+    100%{
+        top: 8vh;
+        left: -7.5vw;
+        rotate: -120deg;
+        height: 15%;
+        width: 6.5%;
+    }
+}
+
+@keyframes shrink {
+    100%{
+        height: 95%;
+        width: 95%;
+    }
+}
+
+@keyframes lighttodark{
+    100%{
+        background-color: var(--secondary);
+    }
+}
