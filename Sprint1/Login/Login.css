@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FED239;
+    --white: #E6E6E1;
+    --black: #202020;
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-bottom: 5px solid var(--black);
+}
+
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://acdn-us.mitiendanube.com/stores/005/561/918/themes/toluca/slide-1733344437263-2019516668-b9c31ccb4927afc105a64f3d05b5adaa1733344438.webp?1906784005) center/cover no-repeat;
+}
+
+.container{
+    background-color: #fff;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 var(--black);
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.container h2{
+    background-color: var(--yellow);
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid var(--black);
+}
+
+.container input{
+    padding: 2%;
+    height: 15%;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+footer{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-top: 5px solid var(--black);
+}

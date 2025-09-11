@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FED239;
+    --white: #E6E6E1;
+    --black: #202020;
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-bottom: 5px solid var(--black);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+}
+
+.container{
+    background-color: #fff;
+    height: 100vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 var(--black);
+}
+
+.container input{
+    padding: 2%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+}
+
+.container select{
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+}
+
+.container h1{
+    font-size: 1rem;
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+    width: 95%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container h2{
+    font-size: 1rem;
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 70%;
+}
+
+table :nth-child(1){ border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+table :nth-child(5){ border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+
+th{
+    background-color: var(--yellow);
+    width: 20%;
+    padding: 2%;
+}
+
+footer{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-top: 5px solid var(--black);
+}
