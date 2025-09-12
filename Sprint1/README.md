@@ -72,9 +72,16 @@ O sistema é **totalmente responsivo** e se adapta automaticamente a diferentes 
 
 ## ⚙️ Como Usar  
 
-1. Faça o **login** com suas credenciais.  
-2. No **menu inicial**, selecione a opção desejada:  
+1. Baixe os arquivos do repositório, e execute o arquivo da tela de login, presente na pasta "Login".
+2. Faça o **login** com suas credenciais.  
+3. No **menu inicial**, selecione a opção desejada:  
    - 📇 **Cadastro de Fornecedores** → adicionar novos fornecedores.  
    - 📦 **Cadastro de Produtos** → adicionar novos produtos.  
    - 📋 **Listagem de Produtos** → visualizar, editar ou excluir produtos já cadastrados.  
-3. Para **sair**, clique em 🚪 **Sair** no menu principal.
+4. Para **sair**, clique em 🚪 **Sair** no menu principal.
+
+---
+
+5. ## 🖼️ Link Para o Protótipo do Figma
+
+https://www.figma.com/design/Rmgegh5Iuqjmrfy9jWoU9o/Sprint-Pe%C3%A7a-Rara?node-id=0-1&p=f&t=McoNPbCpfFd93nLg-0
