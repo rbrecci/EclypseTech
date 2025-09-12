@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FED239;
+    --white: #E6E6E1;
+    --black: #202020;
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Montserrat';
+}
+
+header{
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-bottom: 3px solid var(--black);
+}
+
+header img{
+    height: 75%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(img/fundomain.png) center/cover no-repeat;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 55vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+main h1{
+    font-size: 3rem;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--yellow);
+    text-shadow: 
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px  2px 0 #000,
+        2px  2px 0 #000
+    ;
+    overflow: hidden;
+    border-right: 3px solid var(--yellow);
+    white-space: nowrap;
+    width: 0; 
+    animation: typing 10s steps(20, end) .5s infinite, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  20% { width: 33% }
+  40% { width: 33% }
+  60% { width: 33% }
+  80% { width: 33% }
+  100% { width: 0 }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: var(--yellow) }
+}
+
+.container h2{
+    font-size: 1rem;
+    background-color: var(--yellow);
+    box-shadow: 0 2px 2px -1px;
+    padding: 1%;
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container h2 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    height: 100%;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container a:hover i{
+    scale: 1.4;
+}
+
+.container h2 i{
+    font-size: 5rem;
+    transition: .5s ease;
+}
+
+.container div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+table :nth-child(1){ border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+table :nth-child(5){ border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+
+th{
+    background-color: var(--yellow);
+    width: 20%;
+    padding: 2%;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--yellow);
+    border-top: 3px solid var(--black);
+}
+
+footer img{
+    height: 50%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+footer ul li{padding: 5%; transition: .5s ease;}
+footer ul li:hover{background-color: #ecc022;}
+
+footer a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.icons{
+    height: 50%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer i{
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 5% 1% 5% 1%;
+    cursor: pointer;
+    border: 2px solid var(--black);
+}
+
+footer .icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .icons :nth-child(1) i{
+    padding: 12%;
+}
+
+@media (max-width: 426px){
+    :root{
+        font-size: 12px;
+    }
+    footer img{
+        display: none;
+    }
+    footer ul{
+        width: 60%;
+    }
+    .icons{
+        width: 20%;
+    }
+    table{
+        width: 100%;
+        font-size: 10px;
+    }
+   
+    .container{
+        width: 75vw;
+    }
+    .container h2 a{
+        font-size: .9rem;
+    }
+
+    footer{
+        padding-left: 2%;
+    }
+    .container input{
+        height: 45%;
+    }
+
+}

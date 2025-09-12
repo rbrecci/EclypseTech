@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FED239;
+    --white: #E6E6E1;
+    --black: #202020;
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Montserrat';
+}
+
+header{
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-bottom: 3px solid var(--black);
+}
+
+header img{
+    height: 75%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/estoque.png) center/cover no-repeat;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, .9);
+    height: 100vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 var(--black);
+}
+
+.container input{
+    padding: 2%;
+    height: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+}
+
+.container select{
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+}
+
+.container h1{
+    font-size: 1rem;
+    background-color: var(--yellow);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 3px solid var(--black);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -1.8%;
+    height: 8%;
+}
+
+.container h1 a{color: var(--black); margin-right: 30%; margin-left: 1%;}
+
+.container h2{
+    font-size: 1rem;
+    background-color: var(--yellow);
+    box-shadow: 0 2px 2px -1px;
+    cursor: pointer;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 70%;
+}
+
+table :nth-child(1){ border-top-left-radius: 10px;}
+table :nth-child(5){ border-top-right-radius: 10px;}
+
+th{
+    background-color: var(--yellow);
+    padding: 2%;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--yellow);
+    border-top: 3px solid var(--black);
+}
+
+footer img{
+    height: 50%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+footer ul li{padding: 5%; transition: .5s ease;}
+footer ul li:hover{background-color: #ecc022;}
+
+footer a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.icons{
+    height: 50%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer i{
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 5% 1% 5% 1%;
+    cursor: pointer;
+    border: 2px solid var(--black);
+}
+
+footer .icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .icons :nth-child(1) i{
+    padding: 12%;
+}
+
+@media (max-width: 426px){
+    :root{
+        font-size: 12px;
+    }
+    footer img{
+        display: none;
+    }
+    footer ul{
+        width: 60%;
+    }
+    .icons{
+        width: 20%;
+    }
+    table{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .container h1 a{margin-right: 28%;}
+   
+    .container{
+        width: 75vw;
+    }
+    footer{
+        padding-left: 2%;
+    }
+    .container input{
+        height: 45%;
+    }
+
+}
