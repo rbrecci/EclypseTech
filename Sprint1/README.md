@@ -82,6 +82,7 @@ O sistema é **totalmente responsivo** e se adapta automaticamente a diferentes 
 
 ---
 
-5. ## 🖼️ Link Para o Protótipo do Figma
+## 🖼️ Link Para o Protótipo do Figma
 
 https://www.figma.com/design/Rmgegh5Iuqjmrfy9jWoU9o/Sprint-Pe%C3%A7a-Rara?node-id=0-1&p=f&t=McoNPbCpfFd93nLg-0
+
