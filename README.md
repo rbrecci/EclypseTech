@@ -159,6 +159,12 @@ Desenvolvido em parceria com **Eclypse Tech**.
 
 ---
 
+## 🛠️ Versão Demo do Site
+
+Acesse clicando <a href="https://peca-rara-eclypse.infinityfreeapp.com">aqui</a>.
+
+---
+
 ## 🏁 Conclusão
 
 Este projeto entregou uma solução funcional, segura e escalável para a Peça Rara Brechó, promovendo organização, sustentabilidade e modernização dos processos internos. O sistema está pronto para futuras expansões e evoluções conforme as necessidades da empresa.
